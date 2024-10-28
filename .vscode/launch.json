@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-NouvelleProcedureApplication<NouvelleProcedure>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.dogognon.sohliou.kone.NouvelleProcedure.NouvelleProcedureApplication",
+            "projectName": "NouvelleProcedure",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

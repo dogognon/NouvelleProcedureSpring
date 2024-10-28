@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.dogognon.sohliou.kone.security.oauth2login.util.AppProperties",
+      "sourceType": "com.dogognon.sohliou.kone.security.oauth2login.util.AppProperties"
+    },
+    {
+      "name": "app.oauth2",
+      "type": "com.dogognon.sohliou.kone.security.oauth2login.util.AppProperties$OAuth2",
+      "sourceType": "com.dogognon.sohliou.kone.security.oauth2login.util.AppProperties",
+      "sourceMethod": "public com.dogognon.sohliou.kone.security.oauth2login.util.AppProperties.OAuth2 getOauth2() "
+    },
+    {
+      "name": "rsa",
+      "type": "com.dogognon.sohliou.kone.security.config.RsakeysConfig",
+      "sourceType": "com.dogognon.sohliou.kone.security.config.RsakeysConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.oauth2.authorized-redirect-uris",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.dogognon.sohliou.kone.security.oauth2login.util.AppProperties$OAuth2"
+    },
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.dogognon.sohliou.kone.security.config.RsakeysConfig"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.dogognon.sohliou.kone.security.config.RsakeysConfig"
+    }
+  ],
+  "hints": []
+}

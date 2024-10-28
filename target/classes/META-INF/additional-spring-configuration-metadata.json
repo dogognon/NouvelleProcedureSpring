@@ -1,0 +1,9 @@
+{"properties": [{
+  "name": "app.cors.allowed-origins",
+  "type": "java.lang.String",
+  "description": "A description for 'app.cors.allowed-origins'"
+},{
+  "name": "app.file-dir",
+  "type": "java.lang.String",
+  "description": "A description for 'app.file-dir'"
+}]}
